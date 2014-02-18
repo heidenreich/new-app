@@ -7,6 +7,8 @@ $(document).ready(function(){
 
 		new ListView({model:contact})
 
+		new MainView( {model: contacts.first()} )
+
 	})
 
 })
