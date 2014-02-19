@@ -24,4 +24,4 @@ var data = [
 		phone:'1-515-223-3642',
 		avatar:'http://lh6.ggpht.com/__zoKJ77EvEc/TJJU_wxYXPI/AAAAAAAAHhM/Fdy3Kc9RNWs/bear-yoga%20(1)%5B2%5D.jpg%3Fimgmax%3D800'
 	}
-]
+];

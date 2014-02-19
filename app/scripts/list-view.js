@@ -12,7 +12,7 @@ var ListView = Backbone.View.extend({
 
 		$('.js-contact-list').prepend(this.el);
 
-		this.render()
+		this.render();
 
 	},
 
@@ -20,7 +20,7 @@ var ListView = Backbone.View.extend({
 
 		var renderedTemplate = this.createTemplate(this.model.attributes);
 
-		this.$el.html(renderedTemplate)
+		this.$el.html(renderedTemplate);
 
 	},
 
@@ -30,31 +30,10 @@ var ListView = Backbone.View.extend({
 
 		document.body.scrollTop = document.documentElement.scrollTop = 0;
 
-		console.log(this.model.attributes)
+		console.log(this.model.attributes);
 	}
 
 });
-
-var MainView = Backbone.View.extend({
-	className: 'jumbotron-item',
-
-	jumboTemplate: _.template($('#jumbotron-item-template').text()),
-
-	initialize: function(){
-
-		$('.js-jumbotron-contact-item').html(this.el);
-
-		this.render()
-
-	},
-
-	render: function(){
-
-		var renderedJumboTemplate = this.jumboTemplate(this.model.attributes);
-
-		this.$el.html(renderedJumboTemplate)
-	}
-})
 
 
 

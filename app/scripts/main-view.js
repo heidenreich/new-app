@@ -7,7 +7,7 @@ var MainView = Backbone.View.extend({
 
 		$('.js-jumbotron-contact-item').html(this.el);
 
-		this.render()
+		this.render();
 
 	},
 

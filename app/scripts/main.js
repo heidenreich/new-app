@@ -1,17 +1,18 @@
 
 $(document).ready(function(){
 
-	window.contacts = new ContactsCollection(data)
+	window.contacts = new ContactsCollection(data);
 
 	contacts.each(function(contact){
 
-		new ListView({model:contact})
+		new ListView({model:contact});
 
-		new MainView( {model: contacts.first()} )
+		new MainView( {model: contacts.first()} );
 
-	})
+	});
 
-})
+});
+
 
 
 
