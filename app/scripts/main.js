@@ -37,6 +37,16 @@ $('.new-bear-btn').click(function(){
 	if($('.avatar').val()) {bubba.set({avatar: $('.avatar').val()})}
 
 
+	// var bubba = new Contact ({
+	// 	name: $('.name').val(),
+	// 	phone: $('.phone').val(),
+	// 	bio: $('.bio').val(),
+	// 	avatar: $('.avatar').val(),
+	// })	
+
+
+
+
 	// add the object literal into the collection.
 	// this will
 	// 1.) run the object literal throught the collection's model contructor
