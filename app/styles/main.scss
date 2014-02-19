@@ -13,6 +13,8 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    // background: url(http://www.firstpeople.us/pictures/bear/1600x1200/Grin_and_Bear_It-1600x1200.jpg);
+    // opacity: 0.5;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -90,3 +92,14 @@ body {
     }
 }
 
+
+.bear-list:hover {
+    cursor: pointer;
+
+}
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
+}

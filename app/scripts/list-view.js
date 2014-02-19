@@ -5,7 +5,7 @@ var ListView = Backbone.View.extend({
 	createTemplate: _.template($('#list-item-template').text()),
 
 	events: {
-		"click": "setJumbotronItem"
+		"click": "setJumbotronItem",
 	},
 
 	initialize: function(){
@@ -31,9 +31,11 @@ var ListView = Backbone.View.extend({
 		document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 		console.log(this.model.attributes);
-	}
+	},
+
+
 
 });
 
-
+  
 
