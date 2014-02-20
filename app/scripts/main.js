@@ -44,9 +44,6 @@ $('.new-bear-btn').click(function(){
 	// 	avatar: $('.avatar').val(),
 	// })	
 
-
-
-
 	// add the object literal into the collection.
 	// this will
 	// 1.) run the object literal throught the collection's model contructor
