@@ -6,6 +6,7 @@ var ListView = Backbone.View.extend({
 
 	events: {
 		"click": "setJumbotronItem",
+		'click .edit-btn': 'editContact'
 	},
 
 	initialize: function(){
@@ -13,6 +14,8 @@ var ListView = Backbone.View.extend({
 		$('.js-contact-list').prepend(this.el);
 
 		this.render();
+
+		this.listenTo(this.model, 'change', this.render);
 
 	},
 
